@@ -1,0 +1,8 @@
+Indique el desempeño O-grande del siguiente fragmento de código:
+
+for i in range(n):       Esta sentencia tiene complejidad O(n)
+   for j in range(n):    Esta sentencia tiene complejidad O(n)
+      k = 2 + 2          Esta sentencia tiene complejidad O(1)
+
+Tenemos una sentencia de complejidad O(1) que por cada n veces del bucle exterior, se repite n veces en el
+bucle interior, por lo tanto, la complejidad de este fragmento de código es O(n^2)
