@@ -1,0 +1,9 @@
+Indique el desempeño O-grande del siguiente fragmento de código:
+
+i = n
+while i > 0:
+   k = 2 + 2     Esta sentencia tiene complejidad O(1)
+   i = i // 2    Esta sentencia tiene complejidad O(log n)
+
+El fragmento de código tiene complejidad O(log n), ya que en el bucle el tamaño del problema se divide a la
+mitad
